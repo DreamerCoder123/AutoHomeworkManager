@@ -19,13 +19,13 @@ def EncodeTime(times):
 
 
 def writeIn(info):
-    files = open("all.json", mode="w")  # 以写入模式打开文件
+    files = open("all.json", mode="w",encoding="utf-8")  # 以写入模式打开文件
     files.write(info)
     files.close()
 
 
 time_cost = []
-file = open("all.json")
+file = open("all.json",encoding="utf-8")
 currentData = json.loads(file.read())
 file.close()
 print("从文件中读取的数据：")
