@@ -52,7 +52,6 @@ while True:
     # 判断完毕
     time_end = time.time()
     time_cost.append(time_end-time_start)
-    print("这一面花费的时间为", EncodeTime(round(time_end-time_start, 2)), "\n预计需要",
-          EncodeTime(avg(time_cost)*currentData[currentTracking]['page']), "还剩余：", pages)
-    time.sleep(1)
     os.system("cls")
+    print("上一面花费的时间为", EncodeTime(round(time_end-time_start, 2)), "\n预计需要",
+          EncodeTime(avg(time_cost)*currentData[currentTracking]['page']), "还剩余：", pages)
