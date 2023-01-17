@@ -51,6 +51,7 @@ while True:
     print("请专注....\n此面写完后请按下此按钮")
     # 判断pages的值
     if pages <= 0:
+        os.system("cls")
         showDeadMessage("当前作业已经完成")
     # 判断完毕
     os.system("pause")
