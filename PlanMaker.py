@@ -16,7 +16,7 @@ def readCurrentSub():
         ori = '[{"content": "chi", "page": 0}]'
         writeIn(ori, "all.json")
 
-
+##ああ就是多选题+单选题啊啊啊
 def waitUserInput(hintmessage, ChooseArray):
     if len(ChooseArray) != 0:
         print(hintmessage)
