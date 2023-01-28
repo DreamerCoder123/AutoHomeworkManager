@@ -29,7 +29,6 @@ def showDeadMessage(message):
     time.sleep(5)
     exit(message)
 
-
 time_cost = []
 try:
     file = open("all.json", encoding="utf-8")
